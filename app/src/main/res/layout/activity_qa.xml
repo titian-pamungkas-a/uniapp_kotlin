@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    tools:context=".QA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:text="Q&amp;A"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Q : "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Apakah pembayaran bisa menggunakan OVO dan Gopay?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="14dp"
+            android:text="A :   "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="Tidak, pembayaran hanya bisa dilakukan Cash ketika pengantar sampai di tempat"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Q : "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Bagaimana cara melihat menu-menu yang tersedia?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="14dp"
+            android:text="A :   "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="Buka list makanan, dan pilih makanan yang cocok dengan selera anda."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Q : "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Bagaimana cara memberi review dan feedback kepada toko?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="14dp"
+            android:text="A :   "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="Buka review, dan bagikan kepuasan anda untuk kemajuan toko."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Q : "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Bagaimana jika saya membutuhkan bantuan lebih lanjut?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="14dp"
+            android:text="A :   "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="Kalian dapat menghubungi melalui whatsapp dengan nomer 082111222333"/>
+    </LinearLayout>
+
+</LinearLayout>

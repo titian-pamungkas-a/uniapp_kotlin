@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange_500"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dish"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Uni Ampera APP"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="75dp"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textEmailAddress"
+        android:textSize="16dp"
+        android:hint="E-mail"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/white"
+        android:text="Log In"
+        android:textColor="@color/orange_500"
+        />
+
+    <TextView
+        android:text="Belum mendaftar akun?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:text="Buat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:clickable="true"
+        android:onClick="PindahRegister"
+        />
+
+</LinearLayout>

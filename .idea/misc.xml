@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_ingfo.xml" value="0.21331521739130435" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_list_makanan.xml" value="0.23052536231884058" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_maps.xml" value="0.213768115942029" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_order.xml" value="0.234375" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_qa.xml" value="0.23052536231884058" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/activity_review.xml" value="0.23052536231884058" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/fragment_maps.xml" value="0.25" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/konfirmasi.xml" value="0.22327898550724637" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/logoutkonfirmasi.xml" value="0.18614130434782608" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/makananlayout.xml" value="0.23052536231884058" />
+        <entry key="..\:/asem7/ppb/KotApp/app/src/main/res/layout/orderlayout.xml" value="0.23333333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="496dp"
+        android:layout_height="265dp"
+        android:scaleX="1.1"
+        android:scaleY="1"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/padang" />
+
+    <ImageButton
+        android:id="@+id/bFood"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toEndOf="@+id/bDelivery"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/food"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/bDelivery"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.258"
+        app:srcCompat="@drawable/delivery"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/bLokasi"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bDelivery"
+        app:layout_constraintVertical_bias="0.136"
+        app:srcCompat="@drawable/conversation"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/bReview"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/bLokasi"
+        app:layout_constraintTop_toBottomOf="@+id/bFood"
+        app:layout_constraintVertical_bias="0.136"
+        app:srcCompat="@drawable/rating"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/pesantext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Makanan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bDelivery"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/listtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List makanan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bFood"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/qnatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q n A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bLokasi"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/reviewtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bReview"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/bLogout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_backspace_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

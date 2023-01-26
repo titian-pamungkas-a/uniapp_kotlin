@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange_500"
+    tools:context=".Register">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dish"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Uni Ampera APP"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/namauser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="14dp"
+        android:hint="Nama"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/usernameuser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textEmailAddress"
+        android:textSize="14dp"
+        android:hint="E-mail"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/passworduser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/alamatuser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="14dp"
+        android:hint="Alamat"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/nohpuser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="14dp"
+        android:hint="No. HP"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/daftarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/white"
+        android:text="Daftar"
+        android:textColor="@color/orange_500"
+        />
+
+</LinearLayout>
