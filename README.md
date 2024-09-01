@@ -67,7 +67,7 @@ Pengguna dapat melihat detail dari setiap menu yang disediakan di halaman List M
 ### FAQ
 
 
-![image](https://user-images.githubusercontent.com/77373958/215312090-43838f55-c674-48b2-89ea-20b42e6f8fca.png)
+![image](https://user-images.githubusercontent.com/77373958/215312087-e365d988-8458-4ddf-bfea-cc5579974664.png)
 
 
 
@@ -76,7 +76,7 @@ Jika user memiliki pertanyaan seputar resto atau aplikasi, bisa dilihat melalui 
 ### Review
 
 
-![image](https://user-images.githubusercontent.com/77373958/215312087-e365d988-8458-4ddf-bfea-cc5579974664.png)
+![image](https://user-images.githubusercontent.com/77373958/215312090-43838f55-c674-48b2-89ea-20b42e6f8fca.png)
 
 
 
