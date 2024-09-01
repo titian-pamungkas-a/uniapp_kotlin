@@ -49,8 +49,7 @@ Pengguna dapat memesan makanan melalui halaman order/pesan. Setiap makanan terda
 ### Map
 
 
-![image](https://user-images.githubusercontent.com/77373958/215312087-e365d988-8458-4ddf-bfea-cc5579974664.png)
-
+![image](https://user-images.githubusercontent.com/77373958/215312074-d76a15f8-deba-4480-99ff-b81c98677c12.png)
 
 
 Setelah membeli, pengguna akan melihat tampilan maps, yang berlokasi di sekitar tempat pembeli. Sistem akan memilihkan tempat restoran terdekat dari tempat pembeli secara otomatis. Dalam real case, akan ada logo driver yang menunjukkan posisi dimana driver berada. Namun, dalam project ini hanya ditampilkan lokasi pembeli dan lokasi restoran, serta ditampilkan restoran mana yang terdekat dan jaraknya.
@@ -77,7 +76,7 @@ Jika user memiliki pertanyaan seputar resto atau aplikasi, bisa dilihat melalui 
 ### Review
 
 
-![image](https://user-images.githubusercontent.com/77373958/215312074-d76a15f8-deba-4480-99ff-b81c98677c12.png)
+![image](https://user-images.githubusercontent.com/77373958/215312087-e365d988-8458-4ddf-bfea-cc5579974664.png)
 
 
 
